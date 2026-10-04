@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yash Vyavahare | Cloud & DevOps Engineer</title>
+<meta name="description" content="Portfolio of Yash Vyavahare: AWS cloud infrastructure, Linux, Docker, Jenkins and CI/CD.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="#home">Yash Vyavahare</a>
+    <input type="checkbox" id="menu" class="menu-toggle" aria-label="Toggle menu">
+    <label for="menu" class="burger" aria-hidden="true"><span></span></label>
+    <nav class="links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="tag">Cloud &amp; DevOps</p>
+      <h1>Yash Vyavahare</h1>
+      <p class="sub">Cloud &amp; DevOps enthusiast pursuing a Bachelor of Engineering in Computer Engineering, with hands-on project experience in AWS cloud infrastructure, Linux system administration, containerization, and CI/CD automation.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">View AWS Projects</a>
+        <a class="btn ghost" href="#contact">Contact Me</a>
+      </div>
+      <p class="loc">Pune, Maharashtra</p>
+    </div>
+    <div class="term" aria-hidden="true">
+      <div class="dots"><i></i><i></i><i></i></div>
+      <pre><span class="c">$</span> aws ec2 describe-availability-zones
+<span class="g">multi-az      ✔ high availability</span>
+<span class="c">$</span> aws autoscaling describe-groups
+<span class="g">auto-scaling  ✔ scales with traffic</span>
+<span class="c">$</span> aws iam get-policy
+<span class="g">least-privilege ✔ secured</span>
+<span class="c">$</span> docker ps &amp;&amp; jenkins status
+<span class="g">ci/cd          ✔ ready to deliver</span></pre>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <h2>Professional Summary</h2>
+    <p class="lead">Cloud &amp; DevOps enthusiast pursuing a Bachelor of Engineering in Computer Engineering, with hands-on project experience in AWS cloud infrastructure, Linux system administration, containerization, and CI/CD automation. Skilled in designing highly available, fault-tolerant architectures using EC2, VPC, S3, and IAM, and in monitoring systems with Prometheus and Grafana. Trained in Git, Jenkins, Docker, and Kubernetes fundamentals through dedicated DevOps coursework. Looking to contribute to cloud deployment, infrastructure automation, and continuous delivery in a DevOps or Cloud Engineering role.</p>
+  </div>
+</section>
+
+<section id="skills" class="alt">
+  <div class="wrap">
+    <h2>Technical Skills</h2>
+    <div class="grid skills">
+      <article class="panel aws">
+        <h3>Cloud (AWS)</h3>
+        <p>EC2, S3, IAM, VPC, RDS, CloudWatch, Auto Scaling, Application Load Balancer (ALB), Route Tables, NAT Gateway, Internet Gateway</p>
+      </article>
+      <article class="panel">
+        <h3>Containers &amp; Orchestration</h3>
+        <p>Docker, Kubernetes (fundamentals)</p>
+      </article>
+      <article class="panel">
+        <h3>CI/CD &amp; Version Control</h3>
+        <p>Jenkins, Git, GitHub, CI/CD Pipeline Concepts</p>
+      </article>
+      <article class="panel">
+        <h3>Operating Systems</h3>
+        <p>Linux (Ubuntu) Administration, Windows</p>
+      </article>
+      <article class="panel">
+        <h3>Web &amp; Application Servers</h3>
+        <p>Nginx, Apache Tomcat</p>
+      </article>
+      <article class="panel">
+        <h3>Monitoring &amp; Observability</h3>
+        <p>Prometheus, Grafana, CloudWatch Alarms</p>
+      </article>
+      <article class="panel">
+        <h3>Scripting &amp; Programming</h3>
+        <p>Bash Shell Scripting, Python</p>
+      </article>
+      <article class="panel">
+        <h3>Networking &amp; Security</h3>
+        <p>VPC Subnetting, Security Groups, Network ACLs, IAM Policies, Load Balancing</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>AWS Projects</h2>
+    <div class="grid projects">
+      <article class="card">
+        <h3>Multi-AZ Fault-Tolerant Web Infrastructure</h3>
+        <p class="stack">AWS (EC2, ALB, Auto Scaling)</p>
+        <ul>
+          <li>Architected and deployed a highly available web application across multiple Availability Zones using Amazon EC2, an Application Load Balancer, and Auto Scaling groups.</li>
+          <li>Configured custom VPC subnets, Security Group rules, and CloudWatch alarms to remove single points of failure and enable automatic scaling under variable traffic loads.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Enterprise Virtual Private Cloud (VPC) Topology</h3>
+        <p class="stack">AWS Networking</p>
+        <ul>
+          <li>Engineered a secure, multi-tier network with isolated public and private subnets, Internet Gateways, NAT Gateways, and custom route tables.</li>
+          <li>Defined strict network access-control boundaries to govern communication between application and database layers, following least-privilege principles.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Secure Static Website &amp; Object Storage Hosting</h3>
+        <p class="stack">Amazon S3, IAM</p>
+        <ul>
+          <li>Configured production-style static website hosting on Amazon S3 with custom bucket policies and fine-grained IAM permissions.</li>
+          <li>Applied data-security best practices, optimized asset storage, and implemented controlled access for public web resources.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="education" class="alt">
+  <div class="wrap">
+    <h2>Education</h2>
+    <article class="card wide">
+      <h3>Bachelor of Engineering (BE), Computer Engineering</h3>
+      <p class="stack">D. Y. Patil College of Engineering, Akurdi | 2021 – 2025</p>
+      <p><strong>Relevant Coursework:</strong> Data Structures &amp; Algorithms, Cloud Computing, Operating Systems, Computer Networks, Database Management Systems.</p>
+    </article>
+  </div>
+</section>
+
+<section id="certifications">
+  <div class="wrap">
+    <h2>Certifications &amp; Training</h2>
+    <div class="grid certs">
+      <article class="panel"><h3>DevOps Training</h3><p>Git, Jenkins, Docker, Kubernetes, CI/CD — IT Vedant</p></article>
+      <article class="panel"><h3>AWS Educate</h3><p>Cloud Computing 101, Compute, and Storage</p></article>
+      <article class="panel"><h3>Data Structures and Algorithms using C++</h3><p>Udemy</p></article>
+      <article class="panel"><h3>Python for Beginners</h3><p>Devtown</p></article>
+    </div>
+    <h2 class="sub-h">Extracurricular Activities</h2>
+    <article class="card wide">
+      <h3>Member, ITESA (College Technical Club)</h3>
+      <p class="stack">Aug 2023 – Feb 2024</p>
+      <p>Contributed to planning and organizing technical events, workshops, and club meetings to foster campus community engagement.</p>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p class="lead">Looking to contribute to cloud deployment, infrastructure automation, and continuous delivery in a DevOps or Cloud Engineering role.</p>
+    <div class="grid cons">
+      <a class="panel link" href="mailto:yashvyavahare3@gmail.com"><h3>Email</h3><p>yashvyavahare3@gmail.com</p></a>
+      <a class="panel link" href="tel:+917821035648"><h3>Phone</h3><p>+91 7821035648</p></a>
+      <a class="panel link" href="https://linkedin.com/in/yash-vyavahare-6694a722b" target="_blank" rel="noopener"><h3>LinkedIn</h3><p>linkedin.com/in/yash-vyavahare-6694a722b</p></a>
+      <div class="panel"><h3>Location</h3><p>Pune, Maharashtra</p></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">© 2026 Yash Vyavahare</div></footer>
+</body>
+</html>
